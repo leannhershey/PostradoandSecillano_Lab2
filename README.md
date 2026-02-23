@@ -6,19 +6,19 @@ This repository contains our collaborative student portfolio and daily blog for 
 
 ## Folder Structure
 PostradoandSecillano_Lab2/
-|-- assets/
-|   |-- home-bg.png
-|   |-- home-characters.png
-|   |-- leann-character.png
-|   |-- logo.png
-|   |-- mishli-character.png
-|   |-- portfolio-bg.png
-|   |-- portfolio-title.png
-|   `-- software-icons.png
-|-- css/
-|   `-- style.css
-|-- js/
-|   `-- script.js
-|-- index.html
-|-- portfolio.html
-`-- README.md
+- assets/
+    - home-bg.png
+    - home-characters.png
+    - leann-character.png
+    - logo.png
+    - mishli-character.png
+    - portfolio-bg.png
+    - portfolio-title.png
+    - software-icons.png
+- css/
+    - style.css
+- js/
+    - script.js
+- index.html
+- portfolio.html
+- README.md

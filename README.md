@@ -1,4 +1,4 @@
-# Postrado-Secillano_Lab2
+# PostradoandSecillano_Lab2
 A collaborative student website project by Mishli Valorrhi Postrado and Leann Hershey Secillano
 
 Welcome to our little corner of the internet! 🌐  

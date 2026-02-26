@@ -166,18 +166,29 @@ main.container {
   position: fixed;
   bottom: 12px;
   left: 14px;
+  min-width: 112px;
+  height: 46px;
+  padding: 0 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
-  padding: 10px 22px;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
   color: #000;
-  background: #f4c4da;
+  background: #f8bfd6;
   border: 2px solid #000;
   border-radius: 50px;
   transition: 0.3s ease;
   z-index: 999;
 }
 
+.floating-back-btn .back-icon {
+  display: none;
+}
+
 .floating-back-btn:hover {
-  background: #e79ab3;
+  background: #eda4c3;
 }

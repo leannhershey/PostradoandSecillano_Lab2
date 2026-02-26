@@ -4,23 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mishli & Leann Quest | Leann's Blog</title>
-
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-
-  <!-- MAIN SHARED CSS -->
+ <!-- MAIN SHARED CSS -->
   <link rel="stylesheet" href="css/style.css" />
 
-  <!-- BLOG CSS -->
+  <!-- BLOG ONLY CSS -->
   <link rel="stylesheet" href="css/blog.css" />
   <link rel="stylesheet" href="css/leann-blog.css" />
 </head>
 
 <body class="page-blog">
 
-  <!-- HEADER -->
   <header class="topbar">
     <div class="container topbar-inner">
       <a class="brand" href="index.html">
@@ -41,78 +37,80 @@
     </div>
   </header>
 
-  <!-- MAIN BLOG SECTION -->
-  <main class="blog-container">
-    <div class="blog-card">
-
-      <!-- Top Image -->
-      <img src="assets/leann.png" alt="Leann" class="blog-top-img" />
-
-      <!-- Left Arrow -->
-      <button class="arrow-left">&#10094;</button>
-
-      <!-- CARDS WRAPPER -->
-      <div class="cards-container">
-
-        <!-- Card 1 -->
-        <div class="lightpink-card">
-          <div class="card-top-white"></div>
-          <span class="card-date">February 21, 2026</span>
-          <p>This is the first sample text.</p>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="lightpink-card">
-          <div class="card-top-white"></div>
-          <span class="card-date">February 22, 2026</span>
-          <p>Second card text.</p>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="lightpink-card">
-          <div class="card-top-white"></div>
-          <span class="card-date">February 23, 2026</span>
-          <p>Third card text.</p>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="lightpink-card">
-          <div class="card-top-white"></div>
-          <span class="card-date">February 24, 2026</span>
-          <p>Fourth card text.</p>
-        </div>
-
-        <!-- Card 5 -->
-        <div class="lightpink-card">
-          <div class="card-top-white"></div>
-          <span class="card-date">February 25, 2026</span>
-          <p>Fifth card text.</p>
-        </div>
-
-        <!-- Card 6 -->
-        <div class="lightpink-card">
-          <div class="card-top-white"></div>
-          <span class="card-date">February 26, 2026</span>
-          <p>Sixth card text.</p>
-        </div>
-
-        <!-- Card 7 -->
-        <div class="lightpink-card">
-          <div class="card-top-white"></div>
-          <span class="card-date">February 27, 2026</span>
-          <p>Seventh card text.</p>
-        </div>
-
+  <main class="container">
+    <div class="content-card">
+      <img src="assets/leann.png" class="detail-header-img" alt="Mishli" />
+      <div class="slider-container">
+  <button class="arrow" id="prevBtn" type="button" aria-label="Previous posts">&#10094;</button>
+  
+  <div class="posts-grid" id="postsGrid">
+    <div class="post-item">
+      <div class="post-img-box" data-label="pic1.png">
+        <img src="assets/pic8.png" data-fallback="assets/pic8.png" alt="pic8" class="post-img" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.style.display='none';this.parentElement.classList.add('img-missing');}">
       </div>
+      <h4>February 21, 2026</h4>
+      <p>set caption</p>
+    </div>
+    <div class="post-item">
+      <div class="post-img-box" data-label="pic2.png">
+        <img src="assets/pic9.png" data-fallback="assets/pic9.png" alt="pic9" class="post-img" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.style.display='none';this.parentElement.classList.add('img-missing');}">
+      </div>
+      <h4>February 22, 2026</h4>
+      <p>set caption</p>
+    </div>
+    <div class="post-item">
+      <div class="post-img-box" data-label="pic3.png">
+        <img src="assets/pic10.png" data-fallback="assets/pic10.png" alt="pic10" class="post-img" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.style.display='none';this.parentElement.classList.add('img-missing');}">
+      </div>
+      <h4>February 23, 2026</h4>
+      <p>set caption</p>
+    </div>
 
-      <!-- Right Arrow -->
-      <button class="arrow-right">&#10095;</button>
+    <div class="post-item">
+      <div class="post-img-box" data-label="pic4.png">
+        <img src="assets/pic11.png" data-fallback="assets/pic11.png" alt="pic11" class="post-img" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.style.display='none';this.parentElement.classList.add('img-missing');}">
+      </div>
+      <h4>February 24, 2026</h4>
+      <p>set caption</p>
+    </div>
+    <div class="post-item">
+      <div class="post-img-box" data-label="pic5.png">
+        <img src="assets/pic12.png" data-fallback="assets/pic12.png" alt="pic12" class="post-img" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.style.display='none';this.parentElement.classList.add('img-missing');}">
+      </div>
+      <h4>February 25, 2026</h4>
+      <p>set caption</p>
+    </div>
+    <div class="post-item">
+      <div class="post-img-box" data-label="pic6.png">
+        <img src="assets/pic13.png" data-fallback="assets/pic13.png" alt="pic13" class="post-img" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.style.display='none';this.parentElement.classList.add('img-missing');}">
+      </div>
+      <h4>February 26, 2026</h4>
+      <p>set caption</p>
+    </div>
+    <div class="post-item">
+      <div class="post-img-box" data-label="pic7.png">
+        <img src="assets/pic14.png" data-fallback="assets/pic14.png" alt="pic14" class="post-img" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.style.display='none';this.parentElement.classList.add('img-missing');}">
+      </div>
+      <h4>February 27, 2026</h4>
+      <p>set caption</p>
+    </div>
+  </div>
 
+  <button class="arrow" id="nextBtn" type="button" aria-label="Next posts">&#10095;</button>
+</div>
     </div>
   </main>
 
-  <!-- JS -->
-  <script src="js/leann-blog.js"></script>
+
+  <!-- FLOATING BACK BUTTON -->
+  <a href="blog.html" class="floating-back-btn">
+    <span class="back-icon">&#9664;</span>
+    BACK
+  </a>
+
+  <!-- JAVASCRIPT -->
+  <script src="js/script.js"></script>
+  <script src="js/blog-slider.js"></script>
 
 </body>
 </html>

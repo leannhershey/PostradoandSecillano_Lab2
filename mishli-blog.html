@@ -4,23 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mishli & Leann Quest | Mishli's Blog</title>
-
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-
-  <!-- MAIN SHARED CSS -->
+ <!-- MAIN SHARED CSS -->
   <link rel="stylesheet" href="css/style.css" />
 
-  <!-- BLOG CSS -->
+  <!-- BLOG ONLY CSS -->
   <link rel="stylesheet" href="css/blog.css" />
   <link rel="stylesheet" href="css/mishli-blog.css" />
 </head>
 
 <body class="page-blog">
 
-  <!-- HEADER -->
   <header class="topbar">
     <div class="container topbar-inner">
       <a class="brand" href="index.html">
@@ -41,78 +37,80 @@
     </div>
   </header>
 
-  <!-- MAIN BLOG SECTION -->
-  <main class="blog-container">
-    <div class="blog-card">
-
-      <!-- Top Image -->
-      <img src="assets/mishli.png" alt="Mishli" class="blog-top-img" />
-
-      <!-- Left Arrow -->
-      <button class="arrow-left">&#10094;</button>
-
-      <!-- CARDS WRAPPER -->
-      <div class="cards-container">
-
-        <!-- Card 1 -->
-        <div class="lightpink-card">
-          <div class="card-top-white"></div>
-          <span class="card-date">February 21, 2026</span>
-          <p>This is the first sample text.</p>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="lightpink-card">
-          <div class="card-top-white"></div>
-          <span class="card-date">February 22, 2026</span>
-          <p>Second card text.</p>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="lightpink-card">
-          <div class="card-top-white"></div>
-          <span class="card-date">February 23, 2026</span>
-          <p>Third card text.</p>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="lightpink-card">
-          <div class="card-top-white"></div>
-          <span class="card-date">February 24, 2026</span>
-          <p>Fourth card text.</p>
-        </div>
-
-        <!-- Card 5 -->
-        <div class="lightpink-card">
-          <div class="card-top-white"></div>
-          <span class="card-date">February 25, 2026</span>
-          <p>Fifth card text.</p>
-        </div>
-
-        <!-- Card 6 -->
-        <div class="lightpink-card">
-          <div class="card-top-white"></div>
-          <span class="card-date">February 26, 2026</span>
-          <p>Sixth card text.</p>
-        </div>
-
-        <!-- Card 7 -->
-        <div class="lightpink-card">
-          <div class="card-top-white"></div>
-          <span class="card-date">February 27, 2026</span>
-          <p>Seventh card text.</p>
-        </div>
-
+  <main class="container">
+    <div class="content-card">
+      <img src="assets/mishli.png" class="detail-header-img" alt="Mishli" />
+      <div class="slider-container">
+  <button class="arrow" id="prevBtn" type="button" aria-label="Previous posts">&#10094;</button>
+  
+  <div class="posts-grid" id="postsGrid">
+    <div class="post-item">
+      <div class="post-img-box" data-label="pic1.png">
+        <img src="assets/pic1.png" data-fallback="assets/pic1.png" alt="pic1" class="post-img" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.style.display='none';this.parentElement.classList.add('img-missing');}">
       </div>
+      <h4>February 21, 2026</h4>
+      <p>Sat class — had lunch with our Ethics professor; friends brought food and shared within our circle.</p>
+    </div>
+    <div class="post-item">
+      <div class="post-img-box" data-label="pic2.png">
+        <img src="assets/pic2.png" data-fallback="assets/pic2.png" alt="pic2" class="post-img" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.style.display='none';this.parentElement.classList.add('img-missing');}">
+      </div>
+      <h4>February 22, 2026</h4>
+      <p>Attended and supported my friend Trinity’s Arts Month culminating activity.</p>
+    </div>
+    <div class="post-item">
+      <div class="post-img-box" data-label="pic3.png">
+        <img src="assets/pic3.png" data-fallback="assets/pic3.png" alt="pic3" class="post-img" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.style.display='none';this.parentElement.classList.add('img-missing');}">
+      </div>
+      <h4>February 23, 2026</h4>
+      <p>Continued painting our PathFit canvas, La Speranza.</p>
+    </div>
 
-      <!-- Right Arrow -->
-      <button class="arrow-right">&#10095;</button>
+    <div class="post-item">
+      <div class="post-img-box" data-label="pic4.png">
+        <img src="assets/pic4.png" data-fallback="assets/pic4.png" alt="pic4" class="post-img" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.style.display='none';this.parentElement.classList.add('img-missing');}">
+      </div>
+      <h4>February 24, 2026</h4>
+      <p>Had Networking class; after, Shian and I rode Marley’s motorcycle out of campus — it was so fun.</p>
+    </div>
+    <div class="post-item">
+      <div class="post-img-box" data-label="pic5.png">
+        <img src="assets/pic5.png" data-fallback="assets/pic5.png" alt="pic5" class="post-img" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.style.display='none';this.parentElement.classList.add('img-missing');}">
+      </div>
+      <h4>February 25, 2026</h4>
+      <p>Went swimming with the group at Villa Aguilar. It was amazing and so much fun!</p>
+    </div>
+    <div class="post-item">
+      <div class="post-img-box" data-label="pic6.png">
+        <img src="assets/pic6.png" data-fallback="assets/pic6.png" alt="pic6" class="post-img" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.style.display='none';this.parentElement.classList.add('img-missing');}">
+      </div>
+      <h4>February 26, 2026</h4>
+      <p>Played futsal at Bañadero and a special friend gave me a flower.</p>
+    </div>
+    <div class="post-item">
+      <div class="post-img-box" data-label="pic7.png">
+        <img src="assets/nopicyet.png" data-fallback="assets/pic7.png" alt="pic7" class="post-img" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.style.display='none';this.parentElement.classList.add('img-missing');}">
+      </div>
+      <h4>February 27, 2026</h4>
+      <p>Content for Feb 27...</p>
+    </div>
+  </div>
 
+  <button class="arrow" id="nextBtn" type="button" aria-label="Next posts">&#10095;</button>
+</div>
     </div>
   </main>
 
-  <!-- JS -->
-  <script src="js/mishli-blog.js"></script>
+
+  <!-- FLOATING BACK BUTTON -->
+  <a href="blog.html" class="floating-back-btn">
+    <span class="back-icon">&#9664;</span>
+    BACK
+  </a>
+
+  <!-- JAVASCRIPT -->
+  <script src="js/script.js"></script>
+  <script src="js/blog-slider.js"></script>
 
 </body>
 </html>

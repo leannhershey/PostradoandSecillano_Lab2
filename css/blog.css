@@ -1,0 +1,117 @@
+/* Blog Page Only Styles */
+
+.page-blog {
+  background: #f8e9f1;
+}
+
+/* Section */
+.portrait-tabs {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Horizontal wrapper */
+.tabs-wrapper {
+  display: flex;
+  flex-direction: row;      /* force horizontal */
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+}
+
+/* Cards */
+.tab-card {
+  width: 260px;
+  height: 340px;
+  background: #ffffff;
+  border-radius: 30px;
+  overflow: hidden;         /* keeps image inside rounded corners */
+  flex: 0 0 auto;           /* prevents shrinking/wrapping */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.tab-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Image */
+.card-img {
+  width: 180%;
+  height: 220%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Blog Page Only Styles */
+
+.page-blog {
+  background: #f8e9f1;
+}
+
+/* Section spacing */
+.portrait-tabs {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Horizontal wrapper */
+.tabs-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Cards */
+.tab-card {
+  width: 260px;
+  background: #ffffff;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;    /* stack image + button vertically */
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+  padding: 15px;
+}
+
+/* Image inside card */
+.card-img {
+  width: 180px;            /* smaller width */
+  height: 220px;           /* smaller height */
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+  margin-bottom: 15px;     /* space between image and button */
+}
+
+/* Select Button below image */
+.select-btn {
+  padding: 8px 25px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;              /* black text */
+  background: #f4c4da;      /* lighter pink background */
+  border: 2px solid #000;    /* black outline */
+  border-radius: 50px;       /* fully rounded */
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.select-btn:hover {
+  background: #e79ab3;       /* slightly darker pink on hover */
+  color: #000;               /* keep text black */
+  border: 2px solid #000;    /* outline stays black */
+}

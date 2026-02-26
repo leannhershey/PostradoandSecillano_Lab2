@@ -9,37 +9,36 @@ This repository contains a multi-page static website for Laboratory 2:
 
 ## Folder Structure
 PostradoandSecillano_Lab2/
-|-- assets/
-|   |-- home-bg.png
-|   |-- home-characters.png
-|   |-- leann-character.png
-|   |-- leann.png
-|   |-- logo.png
-|   |-- mishli-character.png
-|   |-- mishli.png
-|   |-- portfolio-bg.png
-|   |-- portfolio-title.png
-|   |-- software-icons.png
-|   |-- software-icons2.png
-|   |-- leann's blog/
-|   |   |-- Day 1/ ... Day 7/
-|   |-- mishli's blog/
-|       |-- Day 1/ ... Day 7/
-|-- css/
-|   |-- style.css
-|-- js/
-|   |-- script.js
-|   |-- blog-slider.js
-|   |-- leann-blog.js
-|   |-- mishli-blog.js
-|-- index.html
-|-- portfolio.html
-|-- blog.html
-|-- leann-blog.html
-|-- mishli-blog.html
-|-- README.md
-```
-
+- assets/
+   - home-bg.png
+   - home-characters.png
+   - leann-character.png
+   - leann.png
+   - logo.png
+   - mishli-character.png
+   - mishli.png
+   - portfolio-bg.png
+   - portfolio-title.png
+   - software-icons.png
+   - software-icons2.png
+   - leann's blog/
+         - Day 1/ ... Day 7/
+   - mishli's blog/
+         - Day 1/ ... Day 7/
+- css/
+   - style.css
+- js/
+   - script.js
+   - blog-slider.js
+   - leann-blog.js
+   - mishli-blog.js
+- index.html
+- portfolio.html
+- blog.html
+- leann-blog.html
+- mishli-blog.html
+- README.md
+  
 ## How To Run/Access
 1. Open the project folder in VS Code or any IDE.
 2. Start a local server, open `index.html`.

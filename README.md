@@ -15,10 +15,28 @@ PostradoandSecillano_Lab2/
     - portfolio-bg.png
     - portfolio-title.png
     - software-icons.png
+    - software-icons2.png
+    - mishli.png
+    - leann.png
+    - pic1.png
+    - pic2.png
+    - pic3.png
+    - pic4.png
+    - pic5.png
+    - pic6.png
 - css/
     - style.css
+    - leann-blog.css
+    - mishli-blog.css
 - js/
     - script.js
+    - blog-slider.js
+    - leann-blog.js
+    - mishli-blog.js
+
 - index.html
 - portfolio.html
+- blog.html
+- leann-blog.html
+- mishli-blog.html
 - README.md
